@@ -3,7 +3,17 @@
 
 ## REST_API_SWAGGER
 
-  
+### Configuração do .ENV
+
+
+Adicione o .env na raiz do projeto com algumas informações
+
+# .env
+
+NODE_ENV=development
+PORT=8626
+
+
 
 ### Setup
 
@@ -146,3 +156,4 @@ Acesse: `http://localhost:3000/swagger` para visializar a documentação atraves
   
 
 ![Example Delete](docs/delete-example.png)
+
