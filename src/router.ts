@@ -16,6 +16,9 @@ class Router {
 
         router.post('/newcats', cors(), (req: express.Request, res: express.Response) => {            
             return createCatController.handle(req, res);
+            res.json({
+                cats
+            })
         })
 
         router.get('/', (req: express.Request, res: express.Response) => {

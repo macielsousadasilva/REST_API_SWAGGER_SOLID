@@ -22,6 +22,9 @@ class Router {
         cats[uuid_1.v4()] = { genus: "feline", name: "Emmy", isHungry: true, lastFedDate: new Date() };
         router.post('/newcats', cors_1.default(), (req, res) => {
             return CreateCat_1.createCatController.handle(req, res);
+            res.json({
+                cats
+            });
         });
         router.get('/', (req, res) => {
             res.json({
