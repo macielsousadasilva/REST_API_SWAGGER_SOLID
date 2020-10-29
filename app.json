@@ -1,0 +1,7 @@
+{
+    "name": "nome do projeto",
+    "description": "Descrição do projeto",
+    "repository": "https://github.com/macielsousadasilva/REST_API_SWAGGER",
+    "logo": "https://avatars0.githubusercontent.com/u/48188441?s=400&u=9aca42e0c24ef936aa78ffec1e90c7474f8b8363&v=4",
+    "keywords": ["node", "typescript", "crud", "macielsousadasilva"]
+  }
