@@ -10,9 +10,11 @@ Adicione o .env na raiz do projeto com algumas informações
 
 # .env
 
+```bash
 NODE_ENV=development
 PORT=8626
 
+```
 
 
 ### Setup
@@ -22,13 +24,7 @@ PORT=8626
   
 
 ```bash
-
-  
-
 npm install
-
-  
-
 ```
 
   
@@ -42,13 +38,7 @@ npm install
   
 
 ```bash
-
-  
-
 npm run dev
-
-  
-
 ```
 
   
@@ -68,24 +58,14 @@ Após iniciar acesse: `http://localhost:3000/cats`
   
 
 ```bash
-
-  
-
 npm start
-
-  
-
 ```
 
-  
-
-  
 
 Após iniciar acesse: `http://localhost:3000/cats`
 
   
 
-  
 
 ## Swagger
 
