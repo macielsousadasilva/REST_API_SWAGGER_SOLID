@@ -187,42 +187,7 @@
                     }
                 }
             }
-        },
-        "/newcats": {            
-            "post": {
-                "tags": [
-                    "NewCats"
-                ],
-                "summary": "Adiciona um novo gato",
-                "requestBody": {
-                    "description": "Novo gato",
-                    "required": true,
-                    "content": {
-                        "application/json": {
-                            "schema": {
-                                "$ref": "#/definitions/NewCats"
-                            }
-                        }
-                    }
-                },
-                "produces": [
-                    "application/json"
-                ],
-                "responses": {
-                    "200": {
-                        "description": "OK",
-                        "schema": {
-                            "$ref": "#/definitions/id"
-                        }
-                    },
-                    "400": {
-                        "description": "Failed. Bad post data."
-                    }
-                }
-            }
         }
-
-
     },
     "definitions": {
         "id": {
